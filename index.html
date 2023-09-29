@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Schedule Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trash Schedule Tracker</h1>
+        <div class="input-section">
+            <label for="trashDate">Next Trash Pickup Date:</label>
+            <input type="date" id="trashDate" required>
+            <button onclick="addTrashDate()">Add Date</button>
+        </div>
+        <div class="trash-dates" id="trashDates">
+            <!-- List of trash pickup dates will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
